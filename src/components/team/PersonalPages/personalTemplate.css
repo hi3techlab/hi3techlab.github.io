@@ -1,0 +1,104 @@
+
+/* Personal Pages */
+.personalTemplate {
+  
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+   /*  display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:rgb(64, 56, 56); */
+  }
+
+  .personHeader {
+    background-color: white;
+    color: black;
+    height: 300px;
+    }
+  .personalImage {
+    width: 25%;
+    max-height: 50%;
+    /*margin-right:2%;*/
+    float: left;
+    border-radius: 50%;
+    display: block;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-top: -25px;
+    border: 3px solid rgb(80, 80, 80);
+    box-shadow: 5px 5px 10px gray;
+    }
+  .personalInfo {
+    width: 100%;
+    /* float: left; */
+    margin-top: 150px;
+    margin-bottom: 15px;
+    }
+  .personalName{
+    font-size: 300%;
+    margin-bottom: -20px;
+    }
+  .personalTitle{
+    font-family: sans-serif;
+    font-size: 175%;
+    font-style: normal;
+    margin-bottom: 50px;
+    }
+  .learnMore{
+    color: rgb(98, 97, 97);
+    margin-top: -30px;
+    }
+  .descriptionBox {
+    background-color: rgb(247, 244, 244);
+    border-top: 0.5px solid grey;
+    }
+  .personalDescription {
+    background-color: white;
+    border: 0.5px solid grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 8%;
+    margin-right:8%;
+    display: inline-block;
+    padding: 30px;
+    }
+
+@media screen and (max-width:683px) {
+  .personalTemplate {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+  }
+  .personalImage {
+    max-height: 50%;
+    float: none;
+    border-radius: 50%;
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    margin-top: 2rem;
+    width: 50%;
+    margin: auto;
+    }
+    .personalInfo {
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+    .personalName{
+      font-size: 200%;
+      margin-bottom: 0px;
+      line-height: 1rem;
+      }
+    .personalTitle{
+      font-family: sans-serif;
+      font-size: 120%;
+      font-style: normal;
+      margin-bottom: 2rem;
+      }
+      .learnMore{
+        color: rgb(98, 97, 97);
+        margin-top: -1rem;
+        }
+}
+  

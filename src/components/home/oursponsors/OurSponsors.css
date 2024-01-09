@@ -1,0 +1,27 @@
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .sponsors-container {
+    margin-left: 1em;
+  }
+  .sponsor-image {
+    max-width: 7vw;
+    /* max-height: 120px; */
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* margin: auto; */
+  }
+ 
+
+  @media screen and (max-width: 840px) {
+    .sponsor-image{
+      max-width: 65px;
+      max-height: 65px;
+      display: flex;
+      margin-top: 10px;
+      margin-left: 2ch;
+    }
+  }

@@ -1,0 +1,99 @@
+.project {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    padding-bottom: 3rem;
+} 
+.projectContent {
+    width: 80%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.projectContributors {
+    font-style: italic;
+}
+
+.projectDescription {
+    font-family: 'Inter';
+}
+
+.projectTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+}
+
+.projectSubTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+}
+.projectResources {
+    width: 100%;
+    float: right;
+    margin-right: 3%;
+    flex: 2;
+}
+
+.research-image{
+    height: 40vh;
+    width: 50vh;
+    object-fit: cover;
+    text-align: center;
+    margin:auto;
+    display:block;
+    border-radius: 30px;
+    margin-top: 7rem;
+}
+
+.projectTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+}
+
+.projectSubTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+}
+
+@media screen and (max-width:1024px) {
+    .project{
+        flex-direction: column-reverse;
+        display: flex;
+        width: 100% !important;
+        /* padding-left: 20vw ; */
+        /* width:100%; */
+        /* justify-content:space-evenly; */
+    }
+    .projectContent {
+        width: 95%;
+        float: left;
+    }
+   .projectResources{
+        width: 100% !important;
+        margin: auto;
+        align-items: center;
+        float:none;
+    }
+    .research-image {
+        height:40vh;
+        width: 50vh;
+    
+    }
+
+    /* :first-child{
+        margin-top:2rem;
+    } */
+}
